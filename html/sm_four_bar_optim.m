@@ -1,9 +1,9 @@
-%% Four Bar Trajectory Optimization
+%% Four-Bar Linkage Optimization
 %
-% This examples shows a four bar linkage modeled in Simscape Multibody that
-% is used for an optimization study. 
+% This example shows a four-bar linkage modeled in Simscape Multibody that
+% is optimized using MATLAB. 
 %
-% Mechanical designers often wish to design a four bar linkage that will
+% Mechanical designers often wish to design a four-bar linkage that will
 % enable an end effector to follow a certain path.  The lengths of the
 % links and the position of the end effector influence the trajectory of
 % the end effector in a complex kinematic relationship.  Optimization
@@ -11,9 +11,9 @@
 % motion.
 %
 % In this example, a parameter sweep is performed to see which trajectories
-% are possible when varying a subset of the lengths.  Then those lengths are
-% tuned using optimization algorithms until the resulting trajectory is
-% within tolerances of the desired trajectory.
+% are possible when varying a subset of the lengths.  Then those lengths
+% are tuned using MATLAB optimization algorithms until the resulting
+% trajectory is within tolerances of the desired trajectory.
 % 
 % Copyright 2017 The MathWorks, Inc.
 
@@ -33,7 +33,7 @@ open_system('sm_four_bar_optim')
 %% Simulation Results from Simscape Logging
 %%
 %
-% The plot below shows the path of a pointer on the end of a four bar
+% The plot below shows the path of a pointer on the end of a four-bar
 % linkage.  Varying the lengths of the bars will change the trajectory of
 % this point.
 %
@@ -61,7 +61,7 @@ sm_four_bar_optim_param_sweep_run;
 %
 % Adhering to the same conditions as in the parameter sweep, optimization
 % algorithms are used to find the lengths of Bar A and Bar B that permit
-% the point on the four bar linkage to follow the desired trajectory.  Note
+% the point on the four-bar linkage to follow the desired trajectory.  Note
 % that the trajectories are translated so that the minimum x and y values
 % of the trajectories are 0.  This makes visual inspection of the curves
 % slightly easier.

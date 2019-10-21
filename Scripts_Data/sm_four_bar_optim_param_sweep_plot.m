@@ -11,7 +11,7 @@ end
 figure(h2_sm_four_bar_optim)
 clf(h2_sm_four_bar_optim)
 numSims = length(simOut);
-title([num2str(numSims) ' Possible Trajectories for Four Bar Linkage'])
+title([num2str(numSims) ' Possible Trajectories for Four-Bar Linkage'])
 axis equal
 grid on
 hold on

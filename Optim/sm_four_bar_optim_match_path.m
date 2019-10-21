@@ -1,4 +1,4 @@
-% Optimization tune four bar linkage to follow a desired trajectory
+% Optimization tune four-bar linkage to follow a desired trajectory
 % Copyright 2017 MathWorks, Inc.
 
 % Set up model

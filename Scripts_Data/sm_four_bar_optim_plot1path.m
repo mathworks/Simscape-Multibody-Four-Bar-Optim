@@ -1,7 +1,7 @@
 % Code to plot simulation results from sm_four_bar_optim
 %% Plot Description:
 %
-% The plot below shows the path of a pointer on the end of a four bar
+% The plot below shows the path of a pointer on the end of a four-bar
 % linkage.  Varying the lengths of the bars will change the trajectory of
 % this point.
 %
@@ -28,7 +28,7 @@ xy_pos = xy_pos_Data-min(xy_pos_Data);
 % Plot results
 plot(xy_pos(:,1),xy_pos(:,2),'LineWidth',1);
 axis equal
-title('Trajectory of Four Bar Linkage');
+title('Trajectory of Four-Bar Linkage');
 grid on
 
 % Remove temporary variables

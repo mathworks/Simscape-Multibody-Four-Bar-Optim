@@ -1,4 +1,4 @@
-% Parameter sweep for four bar linkage to see possible trajectories
+% Parameter sweep for four-bar linkage to see possible trajectories
 % Copyright 2017 MathWorks, Inc.
 
 % Fixed lengths
