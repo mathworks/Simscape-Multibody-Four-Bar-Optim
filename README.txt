@@ -8,5 +8,5 @@ different trajectories. Using optimization algorithms, the
 lengths can be automatically tuned so that the tip follows a 
 desired trajectory.
 
-Run >> startup_sm_four_bar_optim to get started.
+Open project Four_Bar_Optim.prj to get started.
 
