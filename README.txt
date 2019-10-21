@@ -1,5 +1,5 @@
 Four-Bar Linkage Optimization 
-Copyright 2017-2018 The MathWorks, Inc.
+Copyright 2017-2019 The MathWorks, Inc.
 
 Models a four-bar linkage in Simscape Multibody.  The lengths
 of the links are parameterized using MATLAB variables.  Adjusting

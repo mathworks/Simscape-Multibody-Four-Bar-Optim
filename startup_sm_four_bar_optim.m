@@ -1,5 +1,5 @@
 % Startup script for sm_four_bar_optim
-% Copyright 2017-2018 MathWorks, Inc.
+% Copyright 2017-2019 MathWorks, Inc.
 
 addpath(pwd)
 addpath([pwd filesep 'Images']);
