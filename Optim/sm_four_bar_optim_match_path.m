@@ -82,6 +82,7 @@ sm_four_bar_optim_plottraj(xy_pos_des,xy_pos_orig,[],h4_sm_four_bar_optim)
 hold on;
 title('Trajectory Optimization Progress');
 
+pause(4)
 
 options = optimoptions('patternsearch','PollMethod','GSSPositiveBasis2N', ...
     'Display','iter','PlotFcn', @psplotbestf,'MaxIterations',40, ...

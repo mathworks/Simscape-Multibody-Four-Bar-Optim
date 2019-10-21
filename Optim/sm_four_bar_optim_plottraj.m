@@ -5,7 +5,7 @@ function sm_four_bar_optim_plottraj(ref,orig,final,fig_h)
 figure(fig_h)
 if(~isempty(ref))
     ref = ref-min(ref);
-    plot(ref(:,1),ref(:,2),'k--','LineWidth',2);
+    plot(ref(:,1),ref(:,2),'-','LineWidth',1,'Color',[0 0.4 1],'Marker','.','MarkerSize',8,'MarkerFaceColor',[0 0.4 1]);
     hold on
 end
 

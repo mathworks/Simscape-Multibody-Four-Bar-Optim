@@ -25,7 +25,7 @@ try
     
     figure(map_h);
     plot(xy_pos(:,1),xy_pos(:,2));
-    plot(x_data_des,y_data_des,'k--','LineWidth',2);
+    plot(x_data_des,y_data_des,'-','LineWidth',1,'Color',[0 0.4 1],'Marker','.','MarkerSize',8,'MarkerFaceColor',[0 0.4 1]);
     
     % Compute cost function
     F = costFcnAreaPerimeter([x_data_des y_data_des],xy_pos);

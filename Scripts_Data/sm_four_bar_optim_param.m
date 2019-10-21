@@ -45,3 +45,5 @@ pinW_clr = [1 1 1]*0.2;
 % one full revolution of the driving link
 StopTime = 10;
 
+% Opacity for reference visualization
+opac_orig_design = 0.3;
