@@ -1,5 +1,5 @@
 function sm_four_bar_optim_center_plot(ax_h,factor)
-% Copyright 2017 MathWorks, Inc.
+% Copyright 2017-2018 MathWorks, Inc.
 
 % Extend range of axes by (current range*factor)
 % and leave plot centered
