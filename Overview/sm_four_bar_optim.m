@@ -15,7 +15,7 @@
 % are tuned using MATLAB optimization algorithms until the resulting
 % trajectory is within tolerances of the desired trajectory.
 % 
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2020 The MathWorks, Inc.
 
 
 %% Model
@@ -72,6 +72,6 @@ sm_four_bar_optim_match_path;
 
 %%
 
-clear all
-close all
-bdclose all
+%clear all
+%close all
+%bdclose all

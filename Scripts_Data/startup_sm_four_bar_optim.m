@@ -1,5 +1,5 @@
 % Startup script for sm_four_bar_optim
-% Copyright 2017-2019 MathWorks, Inc.
+% Copyright 2017-2020 MathWorks, Inc.
 
 sm_four_bar_optim_param
 load sm_four_bar_optim_des

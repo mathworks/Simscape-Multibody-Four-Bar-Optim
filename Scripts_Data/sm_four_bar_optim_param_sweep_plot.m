@@ -1,7 +1,7 @@
 % Script to plot possible trajectories of end effector as 
 % linkage lengths are varied
 
-% Copyright 2017-2019 MathWorks, Inc.
+% Copyright 2017-2020 MathWorks, Inc.
 
 % Create figure
 if ~exist('h2_sm_four_bar_optim', 'var') || ...
