@@ -1,5 +1,5 @@
 % Parameters for sm_four_bar_optim
-% Copyright 2017-2020 The MathWorks, Inc.
+% Copyright 2017-2021 The MathWorks, Inc.
 
 % Fixed lengths
 c = 0.2;  % m

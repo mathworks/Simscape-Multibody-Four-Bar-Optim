@@ -1,6 +1,6 @@
 function sm_four_bar_optim_plottraj(ref,orig,final,fig_h)
 % Plot desired, initial, and final trajectories
-% Copyright 2017-2020 MathWorks, Inc.
+% Copyright 2017-2021 MathWorks, Inc.
 
 figure(fig_h)
 if(~isempty(ref))
