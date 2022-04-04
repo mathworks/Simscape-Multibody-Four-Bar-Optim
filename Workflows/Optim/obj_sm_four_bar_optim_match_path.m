@@ -1,6 +1,6 @@
 function F  = obj_sm_four_bar_optim_match_path(mdl,param_v,x_data_des,y_data_des,map_h)
 % Objective function to optimize trajectory of four-bar linkage
-% Copyright 2017-2021 The MathWorks, Inc.
+% Copyright 2017-2022 The MathWorks, Inc.
 
 load_system(mdl);
 

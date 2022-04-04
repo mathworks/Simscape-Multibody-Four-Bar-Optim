@@ -1,6 +1,6 @@
 function sm_four_bar_optim_vistraj(model,showhide)
 % Shows or hides initial trajectory for optimization in sm_four_bar_optim
-% Copyright 2017-2021 The MathWorks, Inc.
+% Copyright 2017-2022 The MathWorks, Inc.
 
 spl_h = find_system([model '/Length D'],'RegExp','on','IncludeCommented','on','LookUnderMasks','all','FollowLinks','on','Name','Visualize.*');
 

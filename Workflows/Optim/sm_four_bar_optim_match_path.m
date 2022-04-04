@@ -1,5 +1,5 @@
 % Optimization tune four-bar linkage to follow a desired trajectory
-% Copyright 2017-2021 MathWorks, Inc.
+% Copyright 2017-2022 MathWorks, Inc.
 
 % Set up model
 mdl = 'sm_four_bar_optim';

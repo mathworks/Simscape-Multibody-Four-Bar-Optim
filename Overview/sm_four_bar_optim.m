@@ -15,7 +15,7 @@
 % are tuned using MATLAB optimization algorithms until the resulting
 % trajectory is within tolerances of the desired trajectory.
 % 
-% Copyright 2017-2021 The MathWorks, Inc.
+% Copyright 2017-2022 The MathWorks, Inc.
 
 
 %% Model
