@@ -22,7 +22,7 @@
 
 open_system('sm_four_bar_optim')
 
-set_param(find_system('sm_four_bar_optim','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_four_bar_optim','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% 
 % <<sm_four_bar_optim_mechanics_explorer_IMAGE.png>>
