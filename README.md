@@ -1,4 +1,4 @@
-# **Four-Bar Linkage Optimization **
+# **Four-Bar Linkage Optimization**
 Copyright 2017-2020 The MathWorks(TM), Inc.
 
 [![View Four Bar Linkage Optimization in Simscape on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/62371-four-bar-linkage-optimization-in-simscape)
