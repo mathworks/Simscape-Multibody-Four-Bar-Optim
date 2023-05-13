@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Four-Bar Linkage Optimization</title><meta name="generator" content="MATLAB 9.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2022-10-10"><meta name="DC.source" content="sm_four_bar_optim.m"><style type="text/css">
+      --><title>Four-Bar Linkage Optimization</title><meta name="generator" content="MATLAB 9.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-03-18"><meta name="DC.source" content="sm_four_bar_optim.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -85,14 +85,14 @@ Iter     Func-count       f(x)      MeshSize     Method
    12          35    1.47731e-07      0.003359     Refine Mesh
    13          39    1.47731e-07     0.0008398     Refine Mesh
 Optimization terminated: mesh size less than options.MeshTolerance.
-Elapsed Time = 20.7404
+Elapsed Time = 20.7426
     Link      Initial        Final   
     _____    __________    __________
 
     {'a'}    {'0.1800'}    {'0.1195'}
     {'b'}    {'0.2500'}    {'0.2651'}
 
-</pre><img vspace="5" hspace="5" src="sm_four_bar_optim_04.png" alt=""> <img vspace="5" hspace="5" src="sm_four_bar_optim_05.png" alt=""> <img vspace="5" hspace="5" src="sm_four_bar_optim_06.png" alt=""> <p class="footer">Copyright 2017-2022 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022b</a><br></p></div><!--
+</pre><img vspace="5" hspace="5" src="sm_four_bar_optim_04.png" alt=""> <img vspace="5" hspace="5" src="sm_four_bar_optim_05.png" alt=""> <img vspace="5" hspace="5" src="sm_four_bar_optim_06.png" alt=""> <p class="footer">Copyright 2017-2023 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Four-Bar Linkage Optimization
 %
@@ -111,7 +111,7 @@ Elapsed Time = 20.7404
 % are tuned using MATLAB optimization algorithms until the resulting
 % trajectory is within tolerances of the desired trajectory.
 % 
-% Copyright 2017-2022 The MathWorks, Inc.
+% Copyright 2017-2023 The MathWorks, Inc.
 
 
 %% Model

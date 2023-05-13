@@ -5,7 +5,7 @@
 % linkage.  Varying the lengths of the bars will change the trajectory of
 % this point.
 %
-% Copyright 2017-2022 The MathWorks, Inc.
+% Copyright 2017-2023 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_four_bar_optim', 'var')

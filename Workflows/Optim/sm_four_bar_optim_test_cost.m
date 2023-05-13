@@ -1,5 +1,5 @@
 % Script for testing cost functions
-% Copyright 2017-2022 MathWorks, Inc.
+% Copyright 2017-2023 MathWorks, Inc.
 
 % Fixed Parameters
 c = 0.2;  % m
