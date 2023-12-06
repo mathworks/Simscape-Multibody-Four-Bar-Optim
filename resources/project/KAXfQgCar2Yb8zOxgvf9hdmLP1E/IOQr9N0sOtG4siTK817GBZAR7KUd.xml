@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Info Type="Basic" Visible="1" Icon="" File="sm_four_bar_optim.slx" Name="2. Four Bar"/>
+<Info File="sm_four_bar_optim.slx" Icon="" Name="2. Four Bar" Type="Basic" Visible="1"/>
