@@ -15,7 +15,7 @@
 % are tuned using MATLAB optimization algorithms until the resulting
 % trajectory is within tolerances of the desired trajectory.
 % 
-% Copyright 2017-2024 The MathWorks, Inc.
+% Copyright 2017-2025 The MathWorks, Inc.
 
 
 %% Model
@@ -54,6 +54,7 @@ sm_four_bar_optim_plot1path;
 % # Link a must be able to rotate 180 degrees     (a+b <= c+d)
 %
 
+close(h1_sm_four_bar_optim)
 sm_four_bar_optim_param_sweep_run;
 
 %% Results from Optimization
@@ -67,6 +68,7 @@ sm_four_bar_optim_param_sweep_run;
 % slightly easier.
 %
 
+close(h2_sm_four_bar_optim)
 sm_four_bar_optim_match_path;
 
 

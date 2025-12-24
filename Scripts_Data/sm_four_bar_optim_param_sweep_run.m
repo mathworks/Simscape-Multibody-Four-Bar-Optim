@@ -1,5 +1,5 @@
 % Parameter sweep for four-bar linkage to see possible trajectories
-% Copyright 2017-2024 MathWorks, Inc.
+% Copyright 2017-2025 MathWorks, Inc.
 
 % Fixed lengths
 c = 0.2;  % m
